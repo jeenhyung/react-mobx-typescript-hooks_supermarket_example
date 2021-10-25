@@ -1,0 +1,30 @@
+.BasketItem {
+  display: flex;
+  width: 100%;
+}
+
+.BasketItem .name {
+  flex: 2;
+}
+
+.BasketItem .price {
+  flex: 1;
+}
+
+.BasketItem .choice {
+  flex: 1;
+}
+
+.BasketItem .return {
+  margin-left: auto;
+  color: #f06595;
+  cursor: pointer;
+}
+
+.BasketItem .return:hover {
+  text-decoration: underline;
+}
+
+.BasketItem+.BasketItem { /* item과 item 사이 */
+  margin-top: 1rem;
+}

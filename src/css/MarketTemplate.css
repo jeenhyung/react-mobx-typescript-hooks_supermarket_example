@@ -1,0 +1,46 @@
+.Market {
+  width: 768px;
+  border: 1px solid #000000;
+  display: flex;  /* 가로 방향으로 배치, 자신이 가진 width만큼만 차지. height는 알아서 늘어남 */
+  /* display: block; */ /* 세로 방향으로 배치 */
+  flex-direction: row; /* 배치 방향 설정 row, column, row-reverse, column-reverse */
+  flex-wrap: nowrap; /* 줄넘김 처리 nowrap, wrap, wrap-reverse */
+  /* flex-flow: row nowrap; flex-direction과 flex-wrap을 한번에 지정할 수 있는 단축 송석 */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  flex: 1;
+}
+
+.Market h2 {
+  margin-top: 0;
+}
+
+.Market > div {  /* > : 자식 선택자 */
+  padding: 1rem;
+  flex: 1;
+}
+
+.Market .product-wrapper {
+  background: #f8f9fa;
+}
+
+.AddProduct {
+  width: 348px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: -192px;
+}
+.MarketTemplate {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.AddProduct h4 {
+  margin: 0;
+  margin-top: 3px;
+}

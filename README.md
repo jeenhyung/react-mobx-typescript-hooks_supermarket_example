@@ -1,0 +1,1 @@
+https://velog.io/@azi_zero/MobX-TypeScript-React-2
